@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+
+}
+
+.topic{
+    font-size: 70px;
+    color:rgb(56, 53, 53);
+    text-shadow: 10px 8px 10px black;
+    animation-name: abc;
+    animation-duration: 2s;
+
+}
+
+@keyframes abc {
+    50%{
+        transform:rotateY(180deg);
+    }
+
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+
+.container1{
+  margin: 0 auto;
+  width:80vw;
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap:20px;
+  /* box-shadow: 10px 10px 10px black; */
+  /* grid-template-rows: 100px 100px 100px ; */
+  
+}
+.item{
+  /* border: 2px solid red; */
+  height: 40vh;
+  box-shadow: 10px 10px 10px rgb(105, 103, 103);
+
+}
+
+.item1{
+   grid-column-start: 1;
+   grid-column-end: 3;
+   background-image: url("https://www.fitness-world.in/wp-content/uploads/2022/01/Planning-to-Install-a-Gym-in-your-Society-Banner-1200x620.jpg");
+   background-size: cover;
+   /* background-size: contains; */
+
+}
+.item2{
+    background-image: url("https://www.panattagymequipment.com.au/wp-content/uploads/2018/03/workout.jpg");
+    background-size: cover;
+}
+
+.item3{
+    background-image: url("https://www.yukon-fitness.com/cdn/shop/files/man-lifting-weights_300x.jpg?v=1614298477");
+    background-size: cover;
+}
+.item4{
+    background-image:url("Y-2.png");
+    background-size: cover;
+}
+.item5{
+    background-image: url("Y-3.jpeg");
+    background-size: cover;
+}
+.item6{
+    background-image: url("Y-4.jpg");
+    background-size: cover;
+}
+.item7{
+    background-image: url("https://cdn-gecmb.nitrocdn.com/AxZuCTAHzPYkVVEDmEeCvvtQSACRwjGK/assets/images/optimized/rev-ddb1aab/cartershomegym.com/wp-content/uploads/bb-plugin/cache/Untitled-675-%C3%97-1000-px-1000-%C3%97-675-px-landscape-64835c18f8fa5c9ebef72d28e23fd8bb-6151cff4c60f7.png");
+    background-size: cover;
+}
+.item8{
+    background-image: url("https://blog.nasm.org/hubfs/top%205%20reasons%20to%20become%20a%20personal%20trainer%20header%20blog%20updated.jpg");
+    background-size: cover;
+}
+.item9{
+    background-image: url("https://www.canfitpro.com/wp-content/uploads/2020/10/personal-trainer-testimonial-bg.jpg");
+    background-size: cover;
+}
+.item10{
+    background-image: url("https://athleticsweekly.com/wp-content/uploads/2020/11/PT-image-via-OriGym.jpg");
+    background-size: cover;
+}
+.item11{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMs8e2_Q_w8ODnJMy48DoO6KVLE1Hnpt2ojQ&s");
+    background-size: cover;
+}
+
+
+
+
+
+
+
+footer{
+  background-color:rgb(68, 68, 68);
+
+  height: 30vh;
+}
+
+.bootstrap-icons{
+   color:white
+}
+.last{
+   height: 8vh;
+}
+.link{
+  text-decoration: none;
+}
+.size{
+ margin-bottom: 100px;
+}
+
